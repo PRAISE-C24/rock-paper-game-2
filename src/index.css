@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.inner-shadow {
+  box-shadow: inset -1px 10px 2px -1px rgba(0, 0, 0, 0.2);
+}
+.Btn-hover:hover {
+  transform: perspective(50px) translateZ(5px);
+}
+.btn-end {
+  align-self: flex-end;
+}
+.btn-start {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 320px) {
+  .radial {
+    width: 180px;
+    height: 180px;
+  }
+  .level-text {
+    font-size: 16px;
+  }
+}
