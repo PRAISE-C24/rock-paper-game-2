@@ -22,7 +22,7 @@ Users should be able to:
 
 - My Solution URL:https://github.com/PRAISE-C24/rock-paper-game
 
-- Live Site URL: https://praise-c24.github.io/rock-paper-game
+- Live Site URL: https://charming-lamington-5203f6.netlify.app/
   /
 
 # Built with
